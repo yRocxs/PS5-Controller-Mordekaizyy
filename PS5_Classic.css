@@ -1,6 +1,6 @@
 /*BEGIN PS4 Controller Styling*/
 .controller.ds4 {
-    background: url(img/White_SkinNo-Buttons.png);
+    background: url(https://yrocxs.github.io/PS5-Controller-Mordekaizyy/img/White_SkinNo-Buttons.png);
     height: 700px;
     width: 1200px;
     /*    margin-left: -403px;
@@ -22,7 +22,7 @@
 .ds4 .trigger {
     width: 99px;
     height: 100%;
-    background: url(img/Trigger_Pressed.png);
+    background: url(https://yrocxs.github.io/PS5-Controller-Mordekaizyy/img/Trigger_Pressed.png);
     opacity: 0;
 }
 
@@ -38,7 +38,7 @@
 .ds4 .bumper {
     width: 200px;
     height: 45px;
-    background: url(img/Bumper.png) no-repeat;
+    background: url(https://yrocxs.github.io/PS5-Controller-Mordekaizyy/img/Bumper.png) no-repeat;
     opacity: 0;
 }
 
@@ -74,7 +74,7 @@
 }
 
 .ds4 .touchpad.pressed {
-    background: url(img/Touchpad.png) no-repeat center;
+    background: url(https://yrocxs.github.io/PS5-Controller-Mordekaizyy/img/Touchpad.png) no-repeat center;
 }
 
 .ds4 .meta {
@@ -86,7 +86,7 @@
 }
 
 .ds4 .meta.pressed {
-    background: url(img/Home.png) no-repeat center;
+    background: url(https://yrocxs.github.io/PS5-Controller-Mordekaizyy/img/Home.png) no-repeat center;
 }
 
 .ds4 .p0{
@@ -110,7 +110,7 @@ background-position: 0 -70px;
 }
 
 .ds4 .back, .ds4 .start {
-    background: url(img/Select.png);
+    background: url(https://yrocxs.github.io/PS5-Controller-Mordekaizyy/img/Select.png);
     width: 26px;
     height: 43px;
     opacity: 0;
@@ -156,7 +156,7 @@ background-position: 0 -70px;
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(img/FaceButtons.png);
+    background: url(https://yrocxs.github.io/PS5-Controller-Mordekaizyy/img/FaceButtons.png);
 }
 
 .ds4 .button.pressed {
@@ -197,7 +197,7 @@ background-position: 0 -70px;
 
 .ds4 .stick {
     position: absolute;
-    background: url(img/Sticks.png);
+    background: url(https://yrocxs.github.io/PS5-Controller-Mordekaizyy/img/Sticks.png);
     height: 94px;
     width: 94px;
 }
@@ -229,7 +229,7 @@ background-position: 0 -70px;
 }
 
 .ds4 .face {
-    background: url(img/Dpad.png);
+    background: url(https://yrocxs.github.io/PS5-Controller-Mordekaizyy/img/Dpad.png);
     position: absolute;
 }
 
@@ -279,7 +279,7 @@ background-position: 0 -70px;
 /*END PS4 Controller Styling*/
 
 .ds4.white .back, .ds4 .start {
-    background-image: url(img/Start.png);
+    background-image: url(https://yrocxs.github.io/PS5-Controller-Mordekaizyy/img/Start.png);
     width: 26px;
     height: 43px;
 }
