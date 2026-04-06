@@ -1,6 +1,6 @@
 /*BEGIN PS4 Controller Styling*/
 .controller.ds4 {
-    background: url(White_Skin.png);
+    background: url(img/White_SkinNo-Buttons.png);
     height: 700px;
     width: 1200px;
     /*    margin-left: -403px;
@@ -22,7 +22,7 @@
 .ds4 .trigger {
     width: 99px;
     height: 100%;
-    background: url(Trigger_Pressed.png);
+    background: url(img/Trigger_Pressed.png);
     opacity: 0;
 }
 
@@ -38,7 +38,7 @@
 .ds4 .bumper {
     width: 200px;
     height: 45px;
-    background: url(Bumper.png) no-repeat;
+    background: url(img/Bumper.png) no-repeat;
     opacity: 0;
 }
 
@@ -74,7 +74,7 @@
 }
 
 .ds4 .touchpad.pressed {
-    background: url(Touchpad.png) no-repeat center;
+    background: url(img/Touchpad.png) no-repeat center;
 }
 
 .ds4 .meta {
@@ -86,10 +86,9 @@
 }
 
 .ds4 .meta.pressed {
-    background: url(Home.png) no-repeat center;
+    background: url(img/Home.png) no-repeat center;
 }
 
-/*Not needed, but I like keeping them here for posterity*/
 .ds4 .p0{
 background-position: 0 -6px;
 }
@@ -111,7 +110,7 @@ background-position: 0 -70px;
 }
 
 .ds4 .back, .ds4 .start {
-    background: url(Select.png);
+    background: url(img/Select.png);
     width: 26px;
     height: 43px;
     opacity: 0;
@@ -153,6 +152,13 @@ background-position: 0 -70px;
     left: 762px;
 }
 
+.ds4 .button {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: url(img/FaceButtons.png);
+}
+
 .ds4 .button.pressed {
     background-position-y: 55px;
     /* margin-top: 5px; */
@@ -191,7 +197,7 @@ background-position: 0 -70px;
 
 .ds4 .stick {
     position: absolute;
-    background: url(Sticks.png);
+    background: url(img/Sticks.png);
     height: 94px;
     width: 94px;
 }
@@ -222,14 +228,19 @@ background-position: 0 -70px;
     left: 286px;
 }
 
+.ds4 .face {
+    background: url(img/Dpad.png);
+    position: absolute;
+}
+
 .ds4 .face.up, .ds4 .face.down {
-    width: 36px;
+    width: 37px;
     height: 52px;
 }
 
 .ds4 .face.left, .ds4 .face.right {
     width: 52px;
-    height: 36px;
+    height: 40px;
 }
 
 .ds4 .face.up {
@@ -267,9 +278,8 @@ background-position: 0 -70px;
 
 /*END PS4 Controller Styling*/
 
-/*BEGIN PS4 White Controller Styling*/
 .ds4.white .back, .ds4 .start {
-    background-image: url(Start.png);
+    background-image: url(img/Start.png);
     width: 26px;
     height: 43px;
 }
